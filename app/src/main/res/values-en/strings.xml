@@ -1,0 +1,26 @@
+<resources>
+    <string-array name="idiomas">
+        <item>English</item>
+        <item>Español</item>
+        <item>Portugues</item>
+    </string-array>
+    <string name="info">The aplication dedicated to inform you about the academic performance of your child</string>
+    <string name="usuario">User</string>
+    <string name="contraseña">Password</string>
+    <string name="ingresar">Log In</string>
+    <string name="est_antig">Antiquity:</string>
+    <string name="est_aprobadas"></string>
+    <string name="mostracontra">Show Password</string>
+    <string name="est_fechanac">Birthdate:</string>
+    <string name="est_edad">Age:</string>
+    <string name="lo_info">Are you sure to Sign Off?</string>
+    <string name="lo_salir">Sign Off</string>
+    <string name="lo_cancelar">Cancel</string>
+    <string name="menu_perfil">Profile</string>
+    <string name="menu_notas">Scores</string>
+    <string name="menu_info">Information</string>
+    <string name="menu_salir">Sign Out</string>
+    <string name="str_btn">Change Language</string>
+
+
+</resources>

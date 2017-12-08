@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name" translatable="false">Regente</string>
+
+    <string name="info">La Aplicación dedicada a informarle sobre el rendimiento Academico de su hijo(a)</string>
+    <string name="usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="mostracontra">Mostrar Contraseña</string>
+    <string name="est_fechanac">Fecha de Nacimiento:</string>
+    <string name="est_edad">Edad:</string>
+    <string name="est_antig">Antigüedad:</string>
+    <string name="lo_info">¿Esta seguro que desea Cerrar Sesión?</string>
+    <string name="lo_salir">Salir</string>
+    <string name="lo_cancelar">Cancelar</string>
+    <string name="str_btn">Cambiar Idioma</string>
+
+    <string name="str_en">English</string>
+    <string name="str_es">Español</string>
+
+    <string-array name="languages">
+        <item>@string/str_en</item>
+        <item>@string/str_es</item>
+    </string-array>
+
+    //Drawable
+    <string name="title_activity_perfil_est_draw">PerfilEstDrawActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_config">Configuración</string>
+    <string name="title_activity_perfil">PerfilActivity</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_notas">Notas</string>
+    <string name="menu_info">Información</string>
+    <string name="menu_salir">Salir</string>
+
+
+</resources>

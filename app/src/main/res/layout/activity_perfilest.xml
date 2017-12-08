@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_centerVertical="true"
+    tools:context=".PerfilActivity">
+    
+    <ImageView
+        android:id="@+id/IVFotoEst"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/TVNombreEst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/IVFotoEst"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:text="est"/>
+
+    <TextView
+        android:id="@+id/TVCole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/TVNombreEst"
+        android:text="Colegio San Andres"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/TVCursoEst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TVCole"
+        android:layout_marginTop="3dp"
+        android:layout_centerHorizontal="true"
+        android:text="curso"/>
+
+    <TextView
+        android:id="@+id/TVAprobadasEst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TVCursoEst"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="30dp"
+        android:text="@string/est_edad"/>
+
+    <TextView
+        android:id="@+id/TVNivel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TVCursoEst"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toEndOf="@id/TVAntigEst"
+        android:text="0"/>
+
+    <TextView
+        android:id="@+id/TVReprobadasEst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TVAprobadasEst"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:text="@string/est_antig"/>
+
+    <TextView
+        android:id="@+id/TVAnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TVAprobadasEst"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toEndOf="@id/TVAntigEst"
+        android:text="0"/>
+
+    <TextView
+        android:id="@+id/TVAntigEst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TVReprobadasEst"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:text="@string/est_fechanac"/>
+
+    <TextView
+        android:id="@+id/TVFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TVAnt"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toEndOf="@id/TVAntigEst"
+        android:text="0"/>
+
+</RelativeLayout>

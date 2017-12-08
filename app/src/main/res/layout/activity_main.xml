@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.full.aivan.regente.MainActivity">
+
+
+    <TextView
+        android:id="@+id/TVRegente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:textSize="50sp"
+        android:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/TVInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:text="@string/info"/>
+
+        <EditText
+            android:id="@+id/ETUsuario"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="@string/usuario"
+            android:focusable="true"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/ETContraseña"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/contraseña"
+            android:inputType="textPassword"
+            android:textAlignment="center"/>
+
+    <CheckBox
+        android:id="@+id/CBContraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mostracontra"
+        android:layout_gravity="fill"
+        android:layout_marginLeft="58sp"
+        android:onClick="ShowPass"/>
+
+    <Button
+        android:id="@+id/BtnIngresar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlanco"
+        android:background="@color/colorAccent"
+        android:text="@string/ingresar"/>
+
+    <Button
+        android:id="@+id/BtnIdioma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_btn"
+        android:textSize="10dp"
+        android:textColor="@color/colorBlanco"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="28dp"/>
+
+</LinearLayout>
